@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app version="3.0"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         metadata-complete="false">
+
+      <display-name>Digital Album Library</display-name>
+
+<filter>
+  	<filter-name>MonitoringFilter</filter-name>
+	  <init-param>
+		<param-name>api.key</param-name>
+		<param-value>287ec970b2a34713941018d684df7bb9</param-value>
+	  </init-param>
+	  <init-param>
+		<param-name>app.id</param-name>
+		<param-value>668a71d0-b2f3-4bd0-a9fc-bf2c86edcf23</param-value>
+	  </init-param>
+	  <init-param>
+		<param-name>app.name</param-name>
+		<param-value>musicapp09v1</param-value>
+	  </init-param>
+	  <init-param>
+		<param-name>agent.name</param-name>
+                <param-value>agent-31223dsapi34sdas23</param-value>
+	  </init-param>
+	  <init-param>
+		<param-name>server.endpoint</param-name>
+		<param-value>monitoring.paasport-project.eu</param-value>
+	  </init-param>
+  </filter>
+
+  
+</web-app>
+
